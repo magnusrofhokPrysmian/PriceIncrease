@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="source/style.css">
+	<link rel="manifest" href="source/manifest.json">
+	<meta name="theme-color" content="#202124">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increase Price</title>
+	<link rel="icon" type="image/x-icon" href="source/icon-excel-48.png"</link>
+</head>
+<body>
+	<div class="header">
+	<h1>Price Increase for Excel</h1>
+	<div class="theme-toggle">
+			<label class="switch">
+			<input type="checkbox" id="theme-switch">
+			<span class="slider round"></span>
+			<span class="theme-icon light">L</span>
+			<span class="theme-icon dark">D</span>
+		</label>
+		</div>
+	</div>
+	<h2>Increase Price</h2>
+	<div class="inputNumbers">
+		<input id="inputPriceIncrease" type="text" style="width: 600px; height: 38px;" placeholder="Copy paste from excel..">
+		<input id="inputPercent" type="number" value="8" style=" width: 50px; height: 38px;">
+		<button onclick="calculate()" style="width: 200px;">Multiply</button>
+	</div>
+	<div class="inputNumbers">
+		<input id="outputPriceIncrease" type="text" style="width: 600px; height: 38px;" placeholder="Result">
+		<div class="spacer"></div>
+		<button onclick="copyOutput()" style="width: 200px;">Copy</button>
+	</div>
+	<div class="inputNumbers">
+		<div class="spacer2"></div>
+		<button onclick="resetNumbers()" style="width: 200px;">Reset</button>
+	</div>
+		<script src="source/script.js"></script>
+</body>
+</html>
+
+
+
+
