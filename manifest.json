@@ -1,0 +1,10 @@
+{
+  "name": "Offline Js And Html",
+  "short_name": "Awesome",
+  "description": "No",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#202124",
+  "theme_color": "#202124",
+  "orientation": "portrait"
+}
