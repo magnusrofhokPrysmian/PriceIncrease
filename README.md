@@ -2,6 +2,8 @@ This is a simple multiplier for excel.
 Copy paste 8 numbers, and change the % to whatever.
 Then press multiply.
 Then copy the new numbers.
+<br>
+It multiplies the second, third and fourth number with the %. The calculates the sum of the first four numbers. And keeps the other untouched.
 <br><br>
 Sample:<br>
 These numbers multiplied by 8%:<br> <br>
